@@ -1,0 +1,62 @@
+#page{
+    display: flex;
+    gap: 10px;
+}
+img{
+    max-width: 30rem;
+    height: 100%;
+}
+body{
+    background-color: rgb(29, 23, 54);
+}
+#imgdiv{
+    position: relative;
+}
+#t2{
+    position: absolute;
+    background-color: #00000064;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    top: 10rem;
+    font-size: 5rem;
+    font-family: "Pacifico", cursive;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px)
+}
+#form-container{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(86, 104, 128);
+    padding: 10px;
+    color: white;
+}
+h2{
+    font-family: "PT Serif", serif;
+    color: green;
+}
+h4{
+    color: white;
+}
+#LogIN{
+    color: green;   
+}
+button{
+    background-color: green;  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}
+button:hover{
+    background-color: #485c3d;
+}
+input:hover{
+    border: 1px solid rgb(29, 23, 54) ;
+}
